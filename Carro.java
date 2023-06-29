@@ -2,98 +2,98 @@ package carro;
 
 public class Carro {
 
-	String nome;
-	String marcas;
-	String modelos;
-	String marcas1 = "FIAT";
-	String marcas2 = "VOLKS";
-	String marcas3 = "HONDA";
-	String modeloFiat1 = "TORO";
-	String modeloFiat2 = "FASTBACK";
-	String modeloFiat3 = "FIORINO";
-	String modeloVolks1 = "POLO";
-	String modeloVolks2 = "GOL";
-	String modeloVolks3 = "TIGUAN";
-	String modeloHonda1 = "CIVIC";
-	String modeloHonda2 = "HRV";
-	String modeloHonda3 = "CRV";
+	String name;
+	String brands;
+	String models;
+	String brandsOne = "FIAT";
+	String brandsTwo = "VOLKS";
+	String brandsThree = "HONDA";
+	String modelsFiatOne = "TORO";
+	String modelsFiatTwo = "FASTBACK";
+	String modelsFiatThree = "FIORINO";
+	String modelsVolksOne = "POLO";
+	String modelsVolksTwo = "GOL";
+	String modelsVolksThree = "TIGUAN";
+	String modelsHondaOne = "CIVIC";
+	String modelsHondaTwo = "HRV";
+	String modelsHondaThree = "CRV";
 	
 	
-	void marcasCar() {
-		if(marcas.equalsIgnoreCase(marcas1)) {
-			System.out.println("Otima escolha " + nome + " A Fiat eh uma otima marca de carro para o dia a dia e carros luxuosos.");
-			System.out.println("Essas sao as opcoes de modelos que temos:");
-			System.out.println(" -" + modeloFiat1);
-			System.out.println(" -" + modeloFiat2);
-			System.out.println(" -" + modeloFiat3);
+	void brandsCar() {
+		if(brands.equalsIgnoreCase(brandsOne)) {
+			System.out.println("Good choice " + name + " Fiat is a great car brand for everyday and luxury cars.");
+			System.out.println("These are the model options we have:");
+			System.out.println(" - " + modelsFiatOne);
+			System.out.println(" - " + modelsFiatTwo);
+			System.out.println(" - " + modelsFiatThree);
 			}
-		else if(marcas.equalsIgnoreCase(marcas2)) {
-			System.out.println("Otima escolha " + nome + " A Volks eh uma otima marca de carro para luxo,conforto e tecnologia alema.");
-			System.out.println("Essas sao as opcoes de modelos que temos:");
-			System.out.println(" -" + modeloVolks1);
-			System.out.println(" -" + modeloVolks2);
-			System.out.println(" -" + modeloVolks3);
+		else if(brands.equalsIgnoreCase(brandsTwo)) {
+			System.out.println("Good choice " + name + " Volks is a great car brand for luxury, comfort and German technology.");
+			System.out.println("These are the model options we have:");
+			System.out.println(" - " + modelsVolksOne);
+			System.out.println(" - " + modelsVolksTwo);
+			System.out.println(" - " + modelsVolksThree);
 		}
-		else if(marcas.equalsIgnoreCase(marcas3)) {
-			System.out.println("Otima escolha " + nome + " A Honda eh uma otima marca de carro para luxo,conforto e tecnologia japonesa.");
-			System.out.println("Essas sao as opcoes de modelos que temos:");
-			System.out.println(" -" + modeloHonda1);
-			System.out.println(" -" + modeloHonda2);
-			System.out.println(" -" + modeloHonda3);
+		else if(brands.equalsIgnoreCase(brandsThree)) {
+			System.out.println("Good choice " + name + " Honda is a great car brand for luxury, comfort and Japanese technology.");
+			System.out.println("These are the model options we have:");
+			System.out.println(" - " + modelsHondaOne);
+			System.out.println(" - " + modelsHondaTwo);
+			System.out.println(" - " + modelsHondaThree);
 		}
 		else {
-			System.out.println("ERRO NAS RESPOSTAS, REFACA TUDO DENOVO");
+			System.out.println("WE DON'T HAVE THIS BRAND...");
 		}
 }
 	    
-	  void modelosCar() {
-		  if(modelos.equalsIgnoreCase(modeloFiat1)) {
-			  System.out.println("Otima escolha " + nome + " A " + modeloFiat1 + " esta custando 180.000");
-			  System.out.println("A " + modeloFiat1 + " eh um carro de luxo e de trabalho, possui conforto e ainda mais uma cacamba");
-			  System.out.println("CONFIGURACOES: 4X4 , 2.0 turbo, 230cv, aro 19 ");
+	  void modelsCar() {
+		  if(models.equalsIgnoreCase(modelsFiatOne)) {
+			  System.out.println("Good choice " + name +" The " + modelsFiatOne + " is costing 180.000");
+			  System.out.println("The " + modelsFiatOne + " it is a luxury and work car, it has comfort and even more a bucket");
+			  System.out.println("CONFIGURATIONS: 4X4, 2.0 turbo, 230hp, rim 19 ");
 		  }
-		  else if(modelos.equalsIgnoreCase(modeloFiat2)) {
-			  System.out.println("Otima escolha " + nome + " A " + modeloFiat2 + " esta custando 160.000");
-			  System.out.println("A " + modeloFiat2 + " eh um carro de luxo , possui luxo e conforto, com modelo inovador da FIAT");
-			  System.out.println("CONFIGURACOES: 4X4 , 2.0 turbo, 250cv, aro 19");
+		  else if(models.equalsIgnoreCase(modelsFiatTwo)) {
+			  System.out.println("Good choice " + name + " The " + modelsFiatTwo + " it's costing 160.000");
+			  System.out.println("The " + modelsFiatTwo + " It is a luxury car, it has luxury and comfort, with an innovative model by FIAT");
+			  System.out.println("CONFIGURATIONS: 4X4, 2.0 turbo, 250hp, rim 19");
 		  }
-		  else if(modelos.equalsIgnoreCase(modeloFiat3)) {
-			  System.out.println("Otima escolha " + nome + " A " + modeloFiat3 + " esta custando 100.000");
-			  System.out.println("A " + modeloFiat3 + " eh um carro exclusivo para trabalho, cabe diversas cargas ao mesmo tempo");
-			  System.out.println("CONFIGURACOES: 1.4, 140cv, aro 16");
+		  else if(models.equalsIgnoreCase(modelsFiatThree)) {
+			  System.out.println("Good choice " + name + " The " + modelsFiatThree + " it's costing 100.000");
+			  System.out.println("The " + modelsFiatThree + " It is an exclusive car for work, it fits several loads at the same time");
+			  System.out.println("CONFIGURATIONS: 1.4, 140hp, rim 16");
 		  }
-		  else if(modelos.equalsIgnoreCase(modeloVolks1)) {
-			  System.out.println("Otima escolha " + nome + " O " + modeloVolks1 + " esta custando 90.000");
-			  System.out.println("O " + modeloVolks1 + " eh um carro para o dia a dia e muito confortavel, com tecnologia alema");
-			  System.out.println("CONFIGURACOES: 1.4 , 140cv, aro 17");
+		  else if(models.equalsIgnoreCase(modelsVolksOne)) {
+			  System.out.println("Good choice " + name + " The " + modelsVolksOne + " it's costing 90.000");
+			  System.out.println("The " + modelsVolksOne + " it's a car for everyday life and very comfortable, with german technology");
+			  System.out.println("CONFIGURATIONS: 1.4 , 140hp, rim 17");
 		  }
-		  else if(modelos.equalsIgnoreCase(modeloVolks2)) {
-			  System.out.println("Otima escolha " + nome + " O " + modeloVolks2 + " esta custando 70.000");
-			  System.out.println("O " + modeloVolks2 + " eh um carro popular, otimo para o dia a dia e muito resistente");
-			  System.out.println("CONFIGURACOES: 1.0 , 100cv, aro 16");
+		  else if(models.equalsIgnoreCase(modelsVolksTwo)) {
+			  System.out.println("Good choice " + name + " The " + modelsVolksTwo + " it's costing 70.000");
+			  System.out.println("The " + modelsVolksTwo + " It's a popular car, great for everyday use and very resistant.");
+			  System.out.println("CONFIGURATIONS: 1.0 , 100hp, rim 16");
 		  }
-		  else if(modelos.equalsIgnoreCase(modeloVolks3)) {
-			  System.out.println("Otima escolha " + nome + " A " + modeloVolks3 + " esta custando 150.000");
-			  System.out.println("A " + modeloVolks3 + " eh um carro de luxo, confortavel e muito tecnologico");
-			  System.out.println("CONFIGURACOES: 2.0, 180cv, aro 18");
+		  else if(models.equalsIgnoreCase(modelsVolksThree)) {
+			  System.out.println("Good choice " + name + " The " + modelsVolksThree + " it's costing 150.000");
+			  System.out.println("The " + modelsVolksThree + " it is a luxury car, comfortable and very technological");
+			  System.out.println("CONFIGURATIONS: 2.0, 180hp, rim 18");
 		  }
-		  else if(modelos.equalsIgnoreCase(modeloHonda1)) {
-			  System.out.println("Otima escolha " + nome + " O " + modeloHonda1 + " esta custando 200.000");
-			  System.out.println("O " + modeloHonda1 + " eh um carro de luxo, confortavel,tecnologico e muito veloz");
-			  System.out.println("CONFIGURACOES: 2.0 TURBO, 220cv, aro 18");
+		  else if(models.equalsIgnoreCase(modelsHondaOne)) {
+			  System.out.println("Good choice " + name + " The " + modelsHondaOne + " it's costing 200.000");
+			  System.out.println("The " + modelsHondaOne + " It is a luxury car, comfortable, technological and very fast");
+			  System.out.println("CONFIGURATIONS: 2.0 TURBO, 220hp, rim 18");
 		  }
-		  else if(modelos.equalsIgnoreCase(modeloHonda2)) {
-			  System.out.println("Otima escolha " + nome + " O " + modeloHonda2 + " esta custando 150.000");
-			  System.out.println("O " + modeloHonda2 + " eh um carro de luxo, confortavel, proprio para quem tem familia e quer conforto de tecnologia japonesa");
-			  System.out.println("CONFIGURACOES: 2.0, 170cv, aro 17");
+		  else if(models.equalsIgnoreCase(modelsHondaTwo)) {
+			  System.out.println("Good choice " + name + " The " + modelsHondaTwo + " it's costing 150.000");
+			  System.out.println("The " + modelsHondaTwo + " It is a luxury car, comfortable, suitable for those with families who want the comfort of Japanese technology.");
+			  System.out.println("CONFIGURATIONS: 2.0, 170hp, rim 17");
 		  }
-		  else if(modelos.equalsIgnoreCase(modeloHonda3)) {
-			  System.out.println("Otima escolha " + nome + " O " + modeloHonda3 + " esta custando 130.000");
-			  System.out.println("O " + modeloHonda3 + " eh um carro de luxo, confortavel, proprio para quem tem familia e quer conforto de tecnologia japonesa");
-			  System.out.println("CONFIGURACOES: 2.0, 160cv, aro 17");
+		  else if(models.equalsIgnoreCase(modelsHondaThree)) {
+			  System.out.println("Good choice " + name + " The " + modelsHondaThree + " it's costing 130.000");
+			  System.out.println("The " + modelsHondaThree + " It is a luxury car, comfortable, suitable for those with families who want the comfort of Japanese technology");
+			  System.out.println("CONFIGURATIONS: 2.0, 160hp, rim 17");
 		  }
 		  else {
-			  System.out.println("ERRO EM ALGUMA RESPOSTA...");
+			  System.out.println("WE DON'T HAVE THIS MODEL...");
 		  }
       }
 }

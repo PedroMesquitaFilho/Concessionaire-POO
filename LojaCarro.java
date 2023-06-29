@@ -8,20 +8,21 @@ public class LojaCarro {
 	 Scanner scan = new Scanner (System.in);
 	 Carro car = new Carro();
 	 
-	 System.out.println("---BEM VINDO AO AUTOCAR SOLI DEO GLORIA---");
-	 System.out.println("Digite o seu nome:");
-	 car.nome = scan.nextLine();
-	
-	 System.out.println("Okay " + car.nome + " temos varios carros incriveis para o seu uso e conforto, comece escolhendo pela marca" );
-	 System.out.println("qual Marca voce deseja?");
-	 System.out.println(" -" + car.marcas1);
-	 System.out.println(" -" + car.marcas2);
-	 System.out.println(" -" + car.marcas3);
-	 System.out.println("Escolha qual marca acima voce vai querer:");
-	 car.marcas = scan.nextLine();
-	 car.marcasCar();
-	 System.out.println("Escolha qual modelo acima voce vai querer:");
-	 car.modelos = scan.nextLine();
-	 car.modelosCar();
-    }
+	  System.out.println("---WELCOME TO AUTOCAR SOLI DEO GLORIA---");
+		 System.out.println("Enter your name:");
+		 car.name = scan.nextLine();
+		
+		 System.out.println("Okay " + car.name + " we have several amazing cars for your use and comfort, start by choosing the brand" );
+		 System.out.println("what brand do you want?");
+		 System.out.println(" -" + car.brandsOne);
+		 System.out.println(" -" + car.brandsTwo);
+		 System.out.println(" -" + car.brandsThree);
+		 System.out.println("Choose which brand above you want:");
+		 car.brands = scan.nextLine();
+		 car.brandsCar();
+		 System.out.println("Choose which model above you want:");
+		 car.models = scan.nextLine();
+		 car.modelsCar();
+	    }
+
 }
