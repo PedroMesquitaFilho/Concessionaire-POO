@@ -1,6 +1,6 @@
-package carro;
+package car;
 
-public class Carro {
+public class Cars {
 
 	String name;
 	String brands;
